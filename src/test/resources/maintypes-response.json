@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "page": {
+            "id": "/properties/page",
+            "type": "integer"
+        },
+        "pageSize": {
+            "id": "/properties/pageSize",
+            "type": "integer"
+        },
+        "totalPageCount": {
+            "id": "/properties/totalPageCount",
+            "type": "integer"
+        },
+        "wkda": {
+            "id": "/properties/wkda",
+            "properties": {},
+            "type": "object"
+        }
+    },
+    "type": "object",
+    "required": ["page", "pageSize", "totalPageCount", "wkda"]
+}
